@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+}
+
+.table {
+  margin-top: 40px;
+
+  border-collapse: collapse;
+  width: 100%;
+}
+.table th {
+  font-weight: bold;
+
+  color: rgb(28, 146, 146);
+  border-bottom: 1px solid #dddddd;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Нечетные строки */
+.table tbody tr:nth-child(odd) {
+  background: #f7f7f7;
+}
+
+/* Четные строки */
+.table tbody tr:nth-child(even) {
+  background: #fff;
+}
+
+.thead {
+  padding-bottom: 10px;
+}
+
+.main {
+  width: 24%;
+  text-align: left;
+  padding: 10px;
+}
+
+.trade_user {
+  text-align: center;
+  padding: 10px;
+}
+
+.move th {
+  border: 0px solid #dddddd;
+  padding-bottom: 50px;
+}
+
+.move_time {
+    display: flex;
+    border: 1px solid rgb(247, 76, 76);
+    height: 50px;
+  background-color: rgb(236, 196, 196);
+    color: rgb(247, 76, 76);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cost {
+  font-weight: bold;
+  color: rgb(45, 197, 45);
+}
+
+.btn_start {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn_start button {
+  height: 50px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.btn_add {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_add button {
+  height: 70px;
+  width: 200px;
+  margin-left: 10px;
+}
